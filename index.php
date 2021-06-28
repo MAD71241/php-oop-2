@@ -24,5 +24,6 @@ class Cart {
 }
 
 class CartItem {
-
+    private Product $product;
+    private int $quantity;
 }
