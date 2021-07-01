@@ -12,3 +12,6 @@ class Cart {
     }
 }
 
+
+$trialCart[] = $tcl;
+$trialCart[] = $samsung;

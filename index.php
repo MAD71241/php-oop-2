@@ -5,10 +5,6 @@ require_once __DIR__ ."/classes/Users.php";
 require_once __DIR__ ."/classes/CartItem.php";
 require_once __DIR__ ."/classes/Cart.php";
 require_once __DIR__ ."/classes/CreditCard.php";
-
-$trialCart[] = $tcl;
-$trialCart[] = $samsung;
-
 ?>
 
 
