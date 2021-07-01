@@ -2,15 +2,15 @@
 /* CART-ITEM */
 class CartItem {
     private Product $product;
-    private int $quantity;
+    public int $givenquantity;
 
     function __construct(Product $product, int $givenquantity)
     {
         $this->product = $product;
-        $this->quantity = $givenquantity;
+        $this->givenquantity = $givenquantity;
     }
 
-    function getGivenQty () {
+    public function getGivenQty () {
         return $this->givenquantity;
     }
 
@@ -18,3 +18,6 @@ class CartItem {
         $this->quantity = $givenquantity;
     }
 }
+
+$cart1 = new CartItem ($samsung, 2);
+$cart2 = new CartItem ($tcl, 1);

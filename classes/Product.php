@@ -26,4 +26,31 @@ class Television extends Product {
         $this->inches = $inches;
         $this->videotech = $videotech;
     }
+
+    /**
+     * Get the value of name
+     */ 
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Get the value of price
+     */ 
+    public function getPrice()
+    {
+        return $this->price;
+    }
+
+    /**
+     * Get the value of qty
+     */ 
+    public function getQty()
+    {
+        return $this->qty;
+    }
 }
+
+$tcl = new Television(12, "TCL Silver", 290, 1, 55, "OLED");
+$samsung = new Television(10, "Samsung OLED 55'", 750, 1, 55, "OLED");
